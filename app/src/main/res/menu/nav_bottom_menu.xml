@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_gz"
+        android:icon="@drawable/guanbo"
+        android:title="@string/tab_mainpage_gz" />
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/zhuye"
+        android:title="@string/tab_mainpage" />
+    <item
+        android:id="@+id/menu_me"
+        android:icon="@drawable/tab5icon_xml"
+        android:title="@string/tab_mainpage_me" />
+
+</menu>

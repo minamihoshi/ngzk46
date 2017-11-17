@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@color/main_bg_color"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="horizontal" >
+
+
+    <LinearLayout
+        android:id="@+id/back_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/btn_back"
+        android:gravity="left|center_vertical"
+        android:layout_alignParentLeft="true"
+        android:onClick="back"
+        android:orientation="horizontal"
+        android:paddingRight="10dp">
+
+        <ImageButton
+            android:id="@+id/top_button_back"
+            android:layout_width="13dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/back_bg"
+            android:clickable="false"
+            android:visibility="gone"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/right_layout"
+        android:layout_width="55dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:onClick="doActionRight"
+        android:background="@drawable/btn_back"
+        android:paddingRight="15dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/search_icon"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+             />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<resources>
+    <!--其他-->
+    <string name="app_name">乃木物</string>
+    <string name="intentent_slow">网络似乎开小差</string>
+    <string name="web_error">网页加载错误</string>
+    <!--对话框-->
+    <string name="default_progressbar">Default Progressbar:</string>
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+    <string name="dialog_titles">提示</string>
+    <string name="dialog_content">是否将图片保存到本地</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <!--主页-->
+    <string name="tab_mainpage">主页</string>
+    <string name="tab_mainpage_me">我</string>
+    <string name="tab_mainpage_gz">官博</string>
+    <string name="tab_1_txt">全部</string>
+    <string name="tab_2_txt">博客</string>
+    <string name="tab_3_txt">新闻</string>
+    <string name="tab_4_txt">杂志</string>
+    <string name="news_type">类型:</string>
+    <string name="news_times">时间:</string>
+    <!--左侧菜单-->
+    <string name="left_menu_txt1">关于乃木坂</string>
+    <string name="left_menu_txt2">握手会</string>
+    <string name="left_menu_txt3">乃木字典</string>
+    <!--博客-->
+    <string name="blog_title1">成员</string>
+    <string name="blog_title2">时间</string>
+    <string name="ec_txt1">生日:</string>
+    <string name="ec_txt2">身高:</string>
+    <!--设置-->
+    <string name="set1_txt">设置</string>
+    <string name="set2_txt">关于我们</string>
+    <string name="set3_txt">退出</string>
+    <string name="nodata">没有数据</string>
+    <string name="news_info">新闻详情</string>
+    <!-- 下拉/上拉菜单 -->
+    <string name="pull_to_refresh_pull_label">下拉可以加载更多数据</string>
+    <string name="pull_to_refresh_release_label">松开立即加载更多数据</string>
+    <string name="pull_to_refresh_refreshing_label">正在加载数据...</string>
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label">上拉可以加载更多数据</string>
+    <string name="pull_to_refresh_from_bottom_release_label">松开立即加载更多数据</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">正在加载数据...</string>
+    <string name="msgexit">再次按下返回键将退出应用!</string>
+    <string name="R.string.navigation_drawer_close">close</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="title_saveactivity">收藏夹</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="wangluowenti">网络不给力哦</string>
+    <!-- 关于 -->
+    <string name="about">当前版本</string>
+    <string name="copyright_txt">版权所有</string>
+    <string name="copyright_txt1">Copyright@2017–2018  All Rights Reserved</string>
+</resources>
